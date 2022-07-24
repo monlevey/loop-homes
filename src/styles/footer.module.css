@@ -1,0 +1,16 @@
+.footer {
+    background-image: url("../components/images/footer.jpeg");
+    background-repeat: repeat-x;
+  
+    color: aliceblue;
+    font-family: monospace;
+ 
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+  }
+  .footer a{
+    padding: 1vh;
+    font-size: 2vh;
+    color: white;
+  }
