@@ -41,129 +41,129 @@
 {
     "Url":"https://www.realestate.com.au/property-house-wa-mount+hawthorn-139448251",
     "imgUrl":"./images/hawthorne.jpeg",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
+    "Price":"$1,200,000",
+    "Address":"107 Shakespeare street, Mount Hawthorne, 6016 W.A.",
+    "Description":"1 Bedroom, 1 Bathroom, 0 Parking, 311sqm",
+    "Contact":"bootscootnbaby@hotmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-crawley-139705655",
+    "imgUrl":"./images/crawley.jpeg",
+    "Price":"$2,000,000",
+    "Address":"11/1 Kings Park Avenue, Crawley, 6009 W.A.",
+    "Description":"2 Bedroom, 1 Bathroom, 1 Parking, 111sqm",
+    "Contact":"richbish@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-townhouse-wa-leederville-139705087",
+    "imgUrl":"./images/leedy.jpeg",
+    "Price":"$650,000",
+    "Address":"9/3 Brentham street, Leederville, 6007 W.A.",
+    "Description":"2 Bedroom, 1 Bathroom, 1 Parking, 249sqm",
+    "Contact":"lululebman@hotmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-wembley-139306579",
+    "imgUrl":"./images/bronzewing.jpeg",
+    "Price":"$3,200,000",
+    "Address":"48 Bronzewing loop, Wembley, 6014 W.A.",
+    "Description":"5 Bedroom, 3 Bathroom, 4 Parking, 800sqm",
+    "Contact":"market-fish47@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-rivervale-139057235",
+    "imgUrl":"./images/rivervale.jpeg",
+    "Price":"$380,000",
+    "Address":"129/1 Rowe avenue, Rivervale, 6103 W.A.",
+    "Description":"1 bedroom, 1 Bathroom, 0 parking, 190sqm",
+    "Contact":"bloodsnchips@hotmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-subiaco-139702387",
+    "imgUrl":"./images/subiaco.jpeg",
+    "Price":"$890,000",
+    "Address":"34/222 Hay street, Subiaco, 6008 W.A.",
+    "Description":"3 Bedroom, 2 Bathroom, 2 Parking, 620sqm",
+    "Contact":"kittypuss@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-north+perth-139575035",
+    "imgUrl":"./images/claverton.jpeg",
+    "Price":"$1,299,000",
+    "Address":"5 Claverton street, North Perth, 6006 W.A.",
+    "Description":"5 Bedroom, 3 Bathroom, 4 Parking, 1001sqm",
+    "Contact":"allofthelights@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-east+perth-138309658",
+    "imgUrl":"./images/easty.jpeg",
+    "Price":"$890,000",
+    "Address":"812/251 Hay street, East Perth, 6004 W.A.",
+    "Description":"3 Bedroom, 1 Bathroom, 1 Parking, 420sqm",
+    "Contact":"snoopdawg@hotmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-perth-135356994",
+    "imgUrl":"./images/perth.jpeg",
+    "Price":"$649,000",
+    "Address":"1911/380 Murray street, Perth, 6000 W.A.",
+    "Description":"1 Bedroom, 1 Bathroom, 0 Parking, 290sqm",
+    "Contact":"andnowyouknow@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-leederville-139570087",
+    "imgUrl":"./images/whoops.jpeg",
+    "Price":"$749,000",
+    "Address":"3/138 Mounts Bay road, Perth, 6000 W.A.",
+    "Description":"3 Bedroom, 2 Bathroom, 4 Parking, 650sqm",
+    "Contact":"nomoreplease@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-perth-139569279",
+    "imgUrl":"./images/leederville.jpeg",
+    "Price":"$990,000",
+    "Address":"18 Leicester street, Leederville, 6007 W.A.",
+    "Description":"3 Bedroom, 2 Bathroom, 3 Parking, 800sqm",
+    "Contact":"bevanknows22@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-apartment-wa-burswood-139569915",
+    "imgUrl":"./images/burswood.jpeg",
+    "Price":"$549,000",
+    "Address":"606/96 Bow River crescent, Burswood, 6100 W.A.",
+    "Description":"2 Bedroom, 1 Bathroom, 2 Parking, 169sqm",
+    "Contact":"lockstock47@hotmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-unit-wa-como-139639335",
+    "imgUrl":"./images/como.jpeg",
+    "Price":"$749,000",
+    "Address":"6/61 Park street, Como, 6152 W.A.",
+    "Description":"2 Bedroom, 2 Bathroom, 2 Parking, 650sqm",
+    "Contact":"birdistheword@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-west+leederville-139569623",
+    "imgUrl":"./images/westleed.jpeg",
+    "Price":"$490,000",
+    "Address":"7 Nicholson street, West Leederville, 6007 W.A.",
+    "Description":"3 Bedroom, 1 Bathroom, 2 Parking, 550sqm",
     "Contact":"email owner at email address"
 },
 {
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
+    "Url":"https://www.realestate.com.au/property-apartment-wa-south+perth-139569687",
+    "imgUrl":"./images/south.jpeg",
+    "Price":"$350,000",
+    "Address":"29/4 Manning terrace, South Perth, 6151 W.A.",
+    "Description":"1 Bedroom, 1 Bathroom, 1 Parking, 300sqm",
+    "Contact":"appleseed@gmail.com"
 },
 {
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
-},
-{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
-    "Price":"WhereToWatch",
-    "Address":"",
-    "Description":"JQuery,HTML,CSS and API",
-    "Contact":"email owner at email address"
+    "Url":"https://www.realestate.com.au/property-house-wa-north+perth-139697279",
+    "imgUrl":"./images/charles.jpeg",
+    "Price":"$80,000,000",
+    "Address":"524 Charles street, North Perth, 6006 W.A.",
+    "Description":"2 Bedroom, 1 Bathroom, 0 Parking, 1000sqm",
+    "Contact":"lastbutnotleast@gmail.com"
 }
 ]
