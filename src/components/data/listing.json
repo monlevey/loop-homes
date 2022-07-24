@@ -1,8 +1,48 @@
 [{
-    "Url":"https://sreevinithaa.github.io/where-to-watch/",
-    "imgUrl":"./images/wheretowatch.png",
+    "Url":"https://www.realestate.com.au/sold/property-house-wa-melville-118317059",
+    "imgUrl":"./images/63coleman.jpeg",
+    "Price":"$5,000,000",
+    "Address":"63 Coleman crescent, Melville, 6156 W.A.",
+    "Description":"2 Bedroom, 1 Bathroom, 2 Parking, 500sqm",
+    "Contact":"levey@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property/13-broome-st-nedlands-wa-6009",
+    "imgUrl":"./images/13broome.jpeg",
+    "Price":"$2,000,000",
+    "Address":"13 Broome street, Nedlands, 6009 W.A.",
+    "Description":"5 Bedroom, 3 Bathroom, 2 Parking, 600sqm",
+    "Contact":"broomey@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-north+perth-139580095",
+    "imgUrl":"./images/5campsey.jpeg",
+    "Price":"$749,000",
+    "Address":"5 Campsey street, North Perth, 6006 W.A.",
+    "Description":"3 Bedrooms, 2 Bathrooms, 2 Parking, 650sqm",
+    "Contact":"campsey@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-shenton+park-139310467",
+    "imgUrl":"./images/273Ashenton.jpeg",
+    "Price":"$990,000",
+    "Address":"273A Nicholas road, Shenton Park, 6008 W.A.",
+    "Description":"3 Bedrooms, 2 Bathrooms, 1 Parking, 710sqm",
+    "Contact":"scoobysnax@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-unit-wa-mount+lawley-139579635",
+    "imgUrl":"./images/mtlawley.jpeg",
+    "Price":"$549,000",
+    "Address":"9/21 Storthes street, Mount Lawley, 6005 W.A.",
+    "Description":"2 Bedroom, 1 Bathroom, 1 parking, 420sqm",
+    "Contact":"lawless@gmail.com"
+},
+{
+    "Url":"https://www.realestate.com.au/property-house-wa-mount+hawthorn-139448251",
+    "imgUrl":"./images/hawthorne.jpeg",
     "Price":"WhereToWatch",
-    "Address":"it is an application designed to help movie enthusiasts decide which movie to watch and navigate where, and how to watch it, weather it be bought, rented, or streamed",
+    "Address":"",
     "Description":"JQuery,HTML,CSS and API",
     "Contact":"email owner at email address"
 },
@@ -10,7 +50,119 @@
     "Url":"https://sreevinithaa.github.io/where-to-watch/",
     "imgUrl":"./images/wheretowatch.png",
     "Price":"WhereToWatch",
-    "Address":"it is an application designed to help movie enthusiasts decide which movie to watch and navigate where, and how to watch it, weather it be bought, rented, or streamed",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
+    "Description":"JQuery,HTML,CSS and API",
+    "Contact":"email owner at email address"
+},
+{
+    "Url":"https://sreevinithaa.github.io/where-to-watch/",
+    "imgUrl":"./images/wheretowatch.png",
+    "Price":"WhereToWatch",
+    "Address":"",
     "Description":"JQuery,HTML,CSS and API",
     "Contact":"email owner at email address"
 }
