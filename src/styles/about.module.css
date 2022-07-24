@@ -1,0 +1,11 @@
+.imgclass
+{
+    width: 20vh;
+    border: .5vh double #36231c;
+    border-radius: 50%;
+}
+.imgdivClass
+{
+    width: 100%;
+    text-align: center;
+}
