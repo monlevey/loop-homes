@@ -1,0 +1,62 @@
+.listing_item {
+    width: 40%;
+    font-size: 2vh;
+    padding: 1vh;
+    font-weight: bold;
+    
+  }
+  .listing_item img {
+    width: 25vh;
+    border: .5vh double #36231c;
+  }
+  .imgcontainer {
+    position: relative;
+    width: 50%;
+    
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 25vh;
+    border: .5vh double #36231c;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: white;
+  }
+  
+  .imgcontainer:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text a {
+    padding: 1vh;
+    font-size: 2vh;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .listing_item
+    {
+      width: 90%;
+    }
+  }

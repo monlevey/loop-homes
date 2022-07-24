@@ -1,6 +1,6 @@
 import React from "react";
 // Here we import the Footer.css file to grant access to some additional classNames
-import "../styles/Footer.css";
+import "../styles/footer.module.css";
 
 //we are importing the icons needed for this page
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
