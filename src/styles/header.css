@@ -3,7 +3,7 @@
     background-repeat: repeat-x;
   
     color: aliceblue;
-    font-family: monospace;
+    font-family:   Geneva, Verdana, sans-serif;
   
     padding: 4vh;
     display: flex;
@@ -15,6 +15,11 @@
     justify-content: flex-start;
     font-size: 4.5vh;
   }
+
+  .headlogo {
+    width: 12%;
+  }
+
   @media only screen and (max-width: 800px) {
     .header {
       flex-direction: column;
@@ -23,5 +28,8 @@
     .header h1 {
       font-size: 3.5vh;
       justify-content: center;
+    }
+    .headlogo {
+      width: 5%;
     }
   }

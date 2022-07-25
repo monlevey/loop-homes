@@ -1,6 +1,6 @@
 import React from "react";
 //importing the pages
-import "../styles/section.module.css";
+import "../styles/section.css";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import ListingPage from "./pages/listingpage";

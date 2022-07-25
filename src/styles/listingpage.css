@@ -1,11 +1,13 @@
 .ListingItem
 {
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
     font-size: 2vh;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     font-weight: bold;
     padding: 1vh;
+    border-color: rgb(52, 52, 52);
+    border-style: dashed;
 }
 @media only screen and (max-width: 600px) {
   .LisingItem {

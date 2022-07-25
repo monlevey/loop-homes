@@ -2,11 +2,13 @@ import React from "react";
 //importing data from listing.json
 import ListingData from "../data/listing.json";
 import Listing from "../listing";
-import "../../styles/listingpage.module.css";
+import "../../styles/listingpage.css";
 
 export default function ListingPage() {
   return (
-    <div className="ListingItem">
+    <div>
+      <h1>Current Listings </h1>
+      <div className="ListingItem">
       {/* generate a component for each item in the array */}
       {ListingData.map((item, i) => (
         <Listing
@@ -19,6 +21,7 @@ export default function ListingPage() {
           Contact={item.Contact}
         ></Listing>
       ))}
+     </div>
     </div>
   );
 }
