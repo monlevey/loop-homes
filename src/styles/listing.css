@@ -1,17 +1,20 @@
 .listing_item {
-    width: 40%;
+    width: 30%;
     font-size: 2vh;
-    padding: 1vh;
+    padding: 1vh; 
     font-weight: bold;
-    
+    border: #261c36;
+    align-items: center;
   }
   .listing_item img {
-    width: 25vh;
-    border: .5vh double #36231c;
+    width: 45vh;
+    height: 30vh;
+    border: .5vh double #231c36;
   }
   .imgcontainer {
-    position: relative;
+    position: relative; 
     width: 50%;
+    align-items: center;
     
   }
   
@@ -27,11 +30,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 25vh;
-    border: .5vh double #36231c;
+    width: 45vh;
+    border: .5vh #211c36;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: white;
+    background-color: rgba(181, 222, 235, 0.64);
   }
   
   .imgcontainer:hover .overlay {
@@ -40,7 +43,6 @@
   
   .text {
     color: white;
-  
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,10 +55,25 @@
     padding: 1vh;
     font-size: 2vh;
   }
+  .houseinfo {
+    border: #211c36;
+  }
   
   @media only screen and (max-width: 800px) {
     .listing_item
     {
       width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .listing_item
+    {
+      width: 100%;
+    }
+    .listing_item img {
+      width: 20vh;
+      height: 15vh;
+      border: .5vh double #231c36;
     }
   }

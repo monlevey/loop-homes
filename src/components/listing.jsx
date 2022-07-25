@@ -1,6 +1,6 @@
 import React from "react";
 // Here we import the Project.css file to grant access to some additional classNames
-import "../styles/listing.module.css";
+import "../styles/listing.css";
 
 //getting listing details as props
 function Listing({
@@ -23,15 +23,16 @@ function Listing({
           </div>
         </div>
       </div>
-
-      <h4>{Address}</h4>
-      <h5>
-        <strong>{Price}</strong>
-        <div className="descriptionClass">{Description}</div>
-      </h5>
-      <p>
-        <div className="descriptionClass">{Contact}</div>
-      </p>
+      <div className="houseinfo">
+          <h4>{Address}</h4>
+          <h5>
+            <strong>{Price}</strong>
+            <div className="descriptionClass">{Description}</div>
+          </h5>
+          <h5>
+            <div className="descriptionClass">{Contact}</div>
+          </h5>
+      </div>
     </div>
   );
 }

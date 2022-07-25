@@ -1,6 +1,6 @@
 import React from "react";
 // Here we import the Nav.css file to grant access to some additional classNames
-import "../styles/nav.module.css";
+import "../styles/nav.css";
 
 //taking currentpage and handlePageChange as props from parent component
 function Navbar({ currentPage, handlePageChange }) {
@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
           }
           onClick={() => handlePageChange("ListingPage")}
         >
-          ListingPage
+          Listings
         </a>
       </li>
       <li>
