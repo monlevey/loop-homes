@@ -1,11 +1,15 @@
 const asyncHandler = require('express-async-handler')
 
+const Listing = require('../models/listingsModel')
+
 // @desc Get listings
 // @route GET /api/listings
 // @access Private
 
 const getListings = asyncHandler(async (req, res) => {
-    res.status(200).json({message: 'Get listings'})
+    const listings = await Listing.find()
+
+    res.status(200).json(listings)
 })
 
 // @desc Set listing
@@ -18,7 +22,11 @@ const setListing = asyncHandler(async (req, res) => {
         throw new Error('Please add a text field')
     }
 
-    res.status(200).json({message: 'Set listing'})
+    const listing = await Listing.create({
+        text: req.body.text
+    })
+
+    res.status(200).json(listing)
 })
 
 // @desc Update listing
@@ -26,7 +34,19 @@ const setListing = asyncHandler(async (req, res) => {
 // @access Private
 
 const updateListing = asyncHandler(async (req, res) => {
-    res.status(200).json({ message: `Update listing ${req.params.id}` })
+    const listing = await Listing.findById(req.params.id)
+
+    if (!listing) {
+        res.status(400)
+        throw new Error('Listing not found')
+    }
+
+    const updateListing = await Listing.findByIdAndUpdate(req.params.id, req.body, 
+        {
+        new:true, 
+        })
+
+    res.status(200).json(updateListing)
 })
 
 // @desc Delete listing
@@ -34,7 +54,17 @@ const updateListing = asyncHandler(async (req, res) => {
 // @access Private
 
 const deleteListing = asyncHandler(async (req, res) => {
-    res.status(200).json({ message: `Delete listing ${req.params.id}` })
+
+    const listing = await Listing.findById(req.params.id)
+
+    if (!listing) {
+        res.status(400)
+        throw new Error('Listing not found')
+    }
+
+    await listing.remove()
+
+    res.status(200).json({ id: req.params.id })
 })
 
 module.exports = {
