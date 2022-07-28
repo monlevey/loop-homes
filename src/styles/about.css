@@ -1,8 +1,8 @@
 .imgclass
 {
-    width: 20vh;
-    border: .5vh double #36231c;
-    border-radius: 50%;
+    width: 50%;
+    border: .5vh;
+    border-radius: 1%;
 }
 .imgdivClass
 {

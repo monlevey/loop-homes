@@ -1,11 +1,12 @@
 .ListingItem
 {
+    
     display: flex;
     flex-direction: row;
-    font-size: 2vh;
+    font-size: 0.2%;
     flex-wrap: wrap;
     font-weight: bold;
-    padding: 1vh;
+    padding: 1%;
     border-color: rgb(52, 52, 52);
     border-style: dashed;
 }
