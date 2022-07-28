@@ -7,7 +7,7 @@ export default function About() {
       <div className="imgdivClass">
         <img
           className="imgclass"
-          src={require(`../images/drone.jpg`)}
+          src={require(`../images/housesloop.png`)}
           alt="Loop Homes"
         />
       </div>

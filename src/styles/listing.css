@@ -4,6 +4,7 @@
     padding: 1vh; 
     font-weight: bold;
     border: #261c36;
+    border-width: 3px;
     align-items: center;
   }
   .listing_item img {
@@ -22,6 +23,7 @@
     display: block;
     width: 100%;
     height: auto;
+    overflow: clip;
   }
   
   .overlay {
