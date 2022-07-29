@@ -7,7 +7,9 @@ const {
     deleteListing 
 } = require('../controllers/listingsController')
 
-router.route('/').get(getListings).post(setListing)
-router.route('/:id').delete(deleteListing).put(updateListing)
+const { protect } = require('../middleware/authMiddleware')
+
+router.route('/').get(protect, getListings).post(protect, setListing)
+router.route('/:id').delete(protect, deleteListing).put(protect, updateListing)
 
 module.exports = router
