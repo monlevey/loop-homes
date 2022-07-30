@@ -1,0 +1,14 @@
+.logincontainer {
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontainer {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(194, 216, 236, 0.666);
+    border: 2px;
+    border-color: rgb(134, 181, 222);
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px rgba(112, 155, 170, 0.312);
+}

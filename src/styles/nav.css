@@ -21,11 +21,23 @@
   }
   /* Change the link color to #111 (black) on hover */
   .navbar li a:hover {
-    background-color: #111;
+    background-color: rgb(117, 166, 180);
+    box-shadow: 3px 3px 3px rgba(10, 13, 14, 0.312);
   }
   .nav-active
   {
-    background-color: #111;
+    background-color: rgba(24, 38, 56, 0.666);
+    box-shadow: 3px 3px 3px rgba(10, 13, 14, 0.312);
+  }
+
+  .mobileonly {
+    display:none;
+  }
+
+  .desktoponly {
+    display:block;
+    width: 20%;
+    margin-left: 2%;
   }
   
   @media only screen and (max-width: 800px) {
@@ -38,5 +50,19 @@
     .nav-link {
       
         padding: 0.5vh 0.5vh;
-      }
+    }
+
+
+    .mobileonly {
+      display:block;
+    }
+    .desktoponly {
+      display:none;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .mobileonly {
+      justify-content: center;
+    }
   }

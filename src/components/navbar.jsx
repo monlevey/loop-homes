@@ -1,21 +1,20 @@
 import React from "react";
 // Here we import the Nav.css file to grant access to some additional classNames
 import "../styles/nav.css";
-
+import HeadLogo from './images/looplogonoslogan.png';
 //taking currentpage and handlePageChange as props from parent component
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar">
       <li>
-        {/* Checking the current page is about me if so add highlighting styles otherwise normal style */}
         <a
-          href="#About"
+          href="#Login"
           className={
-            currentPage == "About" ? "nav-link nav-active" : "nav-link"
+            currentPage == "Login" ? "nav-link nav-active" : "nav-link"
           }
-          onClick={() => handlePageChange("About")}
+          onClick={() => handlePageChange("Login")}
         >
-          About Loop Homes
+         Sign Up / Login
         </a>
       </li>
       <li>
@@ -40,6 +39,18 @@ function Navbar({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li>
+        <a
+          href="#About"
+          className={
+            currentPage == "About" ? "nav-link nav-active" : "nav-link"
+          }
+          onClick={() => handlePageChange("About")}
+        >
+          About
+        </a>
+      </li>
+      <img src={HeadLogo} alt="HeadLogo" className="headlogo desktoponly" />
     </nav>
   );
 }
