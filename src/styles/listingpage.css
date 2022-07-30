@@ -11,6 +11,14 @@
     align-items: center;
     overflow: clip;
 }
+
+.listingcontainer {
+  background-color: rgba(218, 244, 252, 0.92);;
+}
+
+.listingheader {
+  text-align: center;
+}
 @media only screen and (max-width: 600px) {
   .LisingItem {
     flex-direction: column;
