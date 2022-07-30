@@ -8,15 +8,28 @@ function Navbar({ currentPage, handlePageChange }) {
     <nav className="navbar">
       <li>
         <a
+          href="#Register"
+          className={
+            currentPage == "Register" ? "nav-link nav-active" : "nav-link"
+          }
+          onClick={() => handlePageChange("Register")}
+        >
+         Register
+        </a>
+      </li>
+      <li>
+        <a
           href="#Login"
           className={
             currentPage == "Login" ? "nav-link nav-active" : "nav-link"
           }
           onClick={() => handlePageChange("Login")}
         >
-         Sign Up / Login
+         Login
         </a>
       </li>
+      <span>   </span>
+     
       <li>
         <a
           href="#ListingPage"
@@ -48,6 +61,17 @@ function Navbar({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("About")}
         >
           About
+        </a>
+      </li>
+      <li>
+        <a
+          href="#ComingSoon"
+          className={
+            currentPage == "ComingSoon" ? "nav-link nav-active" : "nav-link"
+          }
+          onClick={() => handlePageChange("ComingSoon")}
+        >
+         Coming Soon
         </a>
       </li>
       <img src={HeadLogo} alt="HeadLogo" className="headlogo desktoponly" />
