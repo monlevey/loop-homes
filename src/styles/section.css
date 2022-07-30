@@ -1,11 +1,10 @@
 .content {
     color: #1f152b;
     min-height: 60vh;
-    border: .5vh double #272637;
     background-color: #cdfff5;
-    padding: 4vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
+    overflow: clip;
    
   }
 

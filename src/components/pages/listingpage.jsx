@@ -6,8 +6,8 @@ import "../../styles/listingpage.css";
 
 export default function ListingPage() {
   return (
-    <div>
-      <h1>Current Listings </h1>
+    <div className="listingcontainer">
+      <h1 className="listingheader">Current Listings </h1>
       <div className="ListingItem">
       {/* generate a component for each item in the array */}
       {ListingData.map((item, i) => (

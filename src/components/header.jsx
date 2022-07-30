@@ -3,14 +3,16 @@ import React from 'react';
 import '../styles/header.css';
 //importing the navbar
 import Navbar from './navbar.jsx';
-import HeadLogo from './images/LoopHomesLogo.png';
+import HeadLogo from './images/looplogonoslogan.png';
 
 //taking currentpage and handlepagechange as props using object destructuring
 function Header({ currentPage, handlePageChange }) {
    
     return (
         <div className="header">
-        <h1> <img src={HeadLogo} alt="HeadLogo" className="headlogo" /> </h1>
+        <div className="mobilelogo">
+        <img src={HeadLogo} alt="HeadLogo" className="mobileonly tabletsize" /> 
+        </div>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange}></Navbar>
         </div>
     );

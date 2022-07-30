@@ -4,6 +4,7 @@ import "../styles/section.css";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import ListingPage from "./pages/listingpage";
+import Login from "./pages/login";
 
 
 
@@ -16,6 +17,9 @@ function Section({ currentPage, handlePageChange }) {
     }
     if (currentPage === "ListingPage") {
       return <ListingPage />;
+    }
+    if (currentPage === "Login") {
+      return <Login />;
     }
     return <Contact />;
   };
