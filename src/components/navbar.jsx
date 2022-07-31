@@ -50,6 +50,17 @@ function Navbar({ currentPage, handlePageChange }) {
          Coming Soon
         </a>
       </li>
+      <li>
+        <a
+          href="#Dashboard"
+          className={
+            currentPage == "Dashboard" ? "nav-link nav-active" : "nav-link"
+          }
+          onClick={() => handlePageChange("Dashboard")}
+        >
+         Dashboard
+        </a>
+      </li>
       <img src={HeadLogo} alt="HeadLogo" className="headlogo desktoponly" />
     </nav>
   );

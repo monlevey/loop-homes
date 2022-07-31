@@ -4,11 +4,9 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Login](#login)
-- [Image](#image)
+- [Images](#images)
 - [Repository](#repository)
 - [Production](#production)
-- [Contributing](#contributing)
 - [Questions](#questions)
 
 ## Description
@@ -41,10 +39,15 @@ Run the following command at the root of your project and check the app
 
 [Simon Levey](https://github.com/lev8947)
 
-## Image
+## Images
 
 ![ListingsFin](./src/components/images/ListingsFin.png)
 ![ContactPage](./src/components/images/ContactPage.png)
+
+
+## Future Developments
+
+
 ![ComingSoon](./src/components/images/ComingSoon.png)
 
 
@@ -63,26 +66,4 @@ Contact us with any questions:
 Simon Levey: [email](lev_47@hotmail.com) , [GitHub](https://github.com/lev8947)<br />
 Monique Levey: [email](mon_beetle@hotmail.com) , [GitHub](https://github.com/monlevey)<br />
 
-
-
-
-
-
-
-
-
-
-
-# loop-homes
-
-this is by mon
-
-Loop homes is a collaboration by the Levey's :)
-
-backend installation
-npm i express  dotenv  mongoose  colors  express-asyn-handler
-
-**make sure dotenv is in backend with MONGO_URI
-
-npm i
-npm start
+## Loop Homes is a collaboration by the Levey's :)
