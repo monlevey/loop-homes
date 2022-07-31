@@ -17,7 +17,7 @@ function Listing({
         <img src={require(`${imgUrl}`)} className="image" alt={Address} />{" "}
         <div className="overlay">
           <div className="text">
-            <a target="_blank" href={Url}>
+            <a target="_blank" rel="noreferrer" href={Url}>
               {Address}
             </a>
           </div>

@@ -8,30 +8,6 @@ function Navbar({ currentPage, handlePageChange }) {
     <nav className="navbar">
       <li>
         <a
-          href="#Register"
-          className={
-            currentPage == "Register" ? "nav-link nav-active" : "nav-link"
-          }
-          onClick={() => handlePageChange("Register")}
-        >
-         Register
-        </a>
-      </li>
-      <li>
-        <a
-          href="#Login"
-          className={
-            currentPage == "Login" ? "nav-link nav-active" : "nav-link"
-          }
-          onClick={() => handlePageChange("Login")}
-        >
-         Login
-        </a>
-      </li>
-      <span>   </span>
-     
-      <li>
-        <a
           href="#ListingPage"
           className={
             currentPage == "ListingPage" ? "nav-link nav-active" : "nav-link"
