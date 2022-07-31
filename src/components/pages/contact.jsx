@@ -88,7 +88,7 @@ export default function Contact() {
   };
   return (
     <div>
-      <h1>Contact Me</h1>
+      <h1>Get in touch</h1>
       <form onSubmit={handleFormSubmit} method="POST">
         <div className="form-group">
           <label>Name</label>
