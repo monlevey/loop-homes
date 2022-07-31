@@ -33,13 +33,7 @@ Run the following command at the root of your project and check the app
 
 ## Login
 
-Public user type login detail
-username : vini@gmail.com
-password : 123456
 
-Vendor type login detail
-username : kayal@gmail.com  
-password : 123456
 
 ## Contributors
 
@@ -49,28 +43,25 @@ password : 123456
 
 ## Image
 
-![screendhot_1](./client/public/images/screenshot_1.png)
-![screendhot_2](./client/public/images/screenshot_2.png)
-![screendhot_3](./client/public/images/screenshot_3.png)
-![screendhot_4](./client/public/images/screenshot_4.png)
-![screendhot_5](./client/public/images/screenshot_5.png)
-![screendhot_6](./client/public/images/screenshot_6.png)
-![screendhot_7](./client/public/images/screenshot_7.png)
-
+![ListingsFin](./src/components/images/ListingsFin.png)
+![ContactPage](./src/components/images/ContactPage.png)
+![ComingSoon](./src/components/images/ComingSoon.png)
 
 
 ## Repository
 
-You can get the code in the following link. https://github.com/sreevinithaa/EventFoodie.git
-
+You can get the code in the following link. https://github.com/monlevey/loop-homes
 ## Production
 
-You can check the app in following link. https://eventfoodie.herokuapp.com/
+You can check the app in following link. 
 
 
 ## Questions
 
-Contact me with any questions: [email](mailto:sreevinithaa@gmail.com) , [GitHub](https://github.com/sreevinithaa)<br />
+Contact us with any questions: 
+
+Simon Levey: [email](lev_47@hotmail.com) , [GitHub](https://github.com/lev8947)<br />
+Monique Levey: [email](mon_beetle@hotmail.com) , [GitHub](https://github.com/monlevey)<br />
 
 
 
