@@ -1,5 +1,5 @@
 import axios from 'axios'
-
+import { defaultMemoize } from 'reselect'
 const API_URL = '/api/users/'
 
 // Register user
