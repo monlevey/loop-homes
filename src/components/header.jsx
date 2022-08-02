@@ -43,6 +43,14 @@ function Header() {
               <Link to='/register' className='routelink'>
                  Register
               </Link>
+              <span></span>
+              <Link to='/dashboard' className='routelink'>
+                Dashboard
+             </Link>
+             <span></span>
+              <Link to='/' className='routelink'>
+                Home
+             </Link>
             </li>
           </>
         )}
